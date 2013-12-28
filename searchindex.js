@@ -1,0 +1,1 @@
+Search.setIndex({objects:{},terms:{index:0,search:0,cours:0,modul:0,foundat:0,robot:[],indic:0,content:0,tabl:0,page:0,vision:[]},objtypes:{},titles:["Foundation Course"],objnames:{},filenames:["index"]})

@@ -26,6 +26,9 @@ The foundation course aims at the following :
 * Software versioning such as GIT, SVN and Mercurial.
 
 By end of the foundation, participants are expected to do a group project.
+All the queries and discussions regarding the Foundation Course should take place in this `forum`_ .
+The reason for having an open forum is all benefit from individuals question. The forum is only meant for technical question.
+For updates and informal discussions, participants can join our facebook page.
 
 .. todo:: Time table
 
@@ -197,7 +200,7 @@ Modern Control Theory
 
 
 
-
+.. _forum: http://mas-brsu.1002603.n3.nabble.com/
 .. _Ubuntu 12.04: http://releases.ubuntu.com/precise/
 .. _ROS Hydro: http://wiki.ros.org/hydro/Installation/Ubuntu
 .. _Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg: http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html

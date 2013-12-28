@@ -9,7 +9,7 @@
     :width: 1050
     
 
-Foundation Course is an initiative from Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg.
+Foundation Course is an initiative from `Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg`_.
 The aim of one month foundation course is to lay a foundation for the Master course ahead.
 The foundation course aims at the following :
 
@@ -96,9 +96,10 @@ For the foundation course we need the following softwares to be installed::
 Finally install ROS as per the instructions provided in `ROS Hydro`_ . Do not follow the ROS tutorials 
 at this stage.
 
-** It is completely fine if at this stage you are not able to understand what you do. It will be clear during
+**It is completely fine if at this stage you are not able to understand what you do. It will be clear during
 later part of the foundation course **
 
 
 .. _Ubuntu 12.04: http://releases.ubuntu.com/precise/
 .. _ROS Hydro: http://wiki.ros.org/hydro/Installation/Ubuntu
+.. _Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg: http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html

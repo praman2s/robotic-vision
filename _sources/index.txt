@@ -8,8 +8,9 @@
     :height: 250
     :width: 1050
     
-
-Foundation Course is an initiative from Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg.
+Foundation Course
+======================
+Foundation Course is an initiative from `Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg`_.
 The aim of one month foundation course is to lay a foundation for the Master course ahead.
 The foundation course aims at the following :
 
@@ -29,11 +30,10 @@ By end of the foundation, participants are expected to do a group project.
 .. todo:: Time table
 
 .. toctree::
-   :maxdepth: 3
-
+   :maxdepth: 6
 
 Getting Started
-==================
+-----------------
 
 Laptop/Desktop : Consider your laptop as an investment rather than an expenditure. The time you save with a
 good laptop is enormous. Consider the below as a minimum configuration::
@@ -96,9 +96,105 @@ For the foundation course we need the following softwares to be installed::
 Finally install ROS as per the instructions provided in `ROS Hydro`_ . Do not follow the ROS tutorials 
 at this stage.
 
-** It is completely fine if at this stage you are not able to understand what you do. It will be clear during
-later part of the foundation course **
+.. role:: red
+
+**It is completely fine if at this stage you are not able to understand what you do. It will be clear during
+later part of the foundation course**
+
+
+Mathematical Basics
+--------------------
+
+Linear Algebra
+****************
+
+Frames
+**********
+
+Probablity & Statistics
+***********************
+
+
+Refreshing Calculus
+********************
+
+
+Programming Concepts
+---------------------
+
+A link to C++, JAVA and Python
+
+Programming Styles -OOP
+*************************
+
+Software Architecture and Design
+*********************************
+
+UML
+************
+
+Software Design Patterns
+*************************
+
+State Machines
+******************
+
+Communications
+*****************
+
+Multi-threading
+********************
+
+Shared Memory
+*******************
+
+Understanding ROS
+******************
+
+
+Algorithms and Data-structures
+------------------------------
+
+Basic Data Structures
+**********************
+
+Stacks and Queues
+********************
+
+ROS Message
+*******************
+
+Point Cloud
+************
+
+Protbuf
+*********
+
+
+Control Systems
+--------------------
+
+Classical Control Theory
+**************************
+
+Closed-loop transfer function
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PID controller
+~~~~~~~~~~~~~~~~~
+
+Modern Control Theory
+***********************
+
+
+
+
+
+
+
+
 
 
 .. _Ubuntu 12.04: http://releases.ubuntu.com/precise/
 .. _ROS Hydro: http://wiki.ros.org/hydro/Installation/Ubuntu
+.. _Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg: http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html

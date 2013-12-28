@@ -8,7 +8,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Foundation Course &mdash; Robotic Vision 1.0.0 documentation</title>
+    <title>Getting Started &mdash; Robotic Vision 1.0.0 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -43,22 +43,87 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="foundation-course">
-<h1>Foundation Course<a class="headerlink" href="#foundation-course" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/weebly.png" src="_images/weebly.png" style="width: 1050px; height: 250px;" />
-<p>Contents:</p>
+  <img alt="_images/weebly.png" src="_images/weebly.png" style="width: 1050px; height: 250px;" />
+<p>Foundation Course is an initiative from Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg.
+The aim of one month foundation course is to lay a foundation for the Master course ahead.
+The foundation course aims at the following :</p>
+<ul class="simple">
+<li>Getting used to Ubuntu as OS.</li>
+<li>Familiarity with languages such as C, C++, Python,Octave and JAVA.</li>
+<li>Time Management.</li>
+<li>Documentation and Presentation with Latex.</li>
+<li>Software Documentation with Sphinx and Doxygen.</li>
+<li>Basic mathematical concepts.</li>
+<li>Software Design Patterns.</li>
+<li>Basic Programming Concepts.</li>
+<li>ROS as a framework.</li>
+<li>Software versioning such as GIT, SVN and Mercurial.</li>
+</ul>
+<p>By end of the foundation, participants are expected to do a group project.</p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
 </ul>
 </div>
+<div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>Laptop/Desktop : Consider your laptop as an investment rather than an expenditure. The time you save with a
+good laptop is enormous. Consider the below as a minimum configuration:</p>
+<div class="highlight-python"><pre>Processor : i3 or above.
+RAM : 4 GB or above.
+Hard Disk : 250 GB or above (Consider more if you want dual boot with windows).
+Graphics Card : NVIDIA 640 or above (Dedicated RAM of more than 1GB is preferable).
+Equivalent RADEON processors can also be used.</pre>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+<div class="section" id="operating-system">
+<h2>Operating System<a class="headerlink" href="#operating-system" title="Permalink to this headline">¶</a></h2>
+<p><em>Ubuntu users can ignore this part</em></p>
+<img alt="_images/ubuntu.jpeg" src="_images/ubuntu.jpeg" style="height: 100px;" />
+<p>Ubuntu has been the favourite OS for couple of years. All the development of Robocup takes place in Ubuntu
+and ROS framework is closely associated to Ubuntu. Currently the version that is being used is <a class="reference external" href="http://releases.ubuntu.com/precise/">Ubuntu 12.04</a>
+(LTS). Ubuntu is always versioned as xx.yy where xx is the year of release and yy is the month. Ubuntu releases
+twice in a year. Once in April and once in October. xx.04 and yy.10. We insist that you have a native OS rather than
+a virtual box or wubi. Please allocate more than 100GB when you partition your disk for native installation.</p>
+<div class="section" id="first-steps">
+<h3>First Steps<a class="headerlink" href="#first-steps" title="Permalink to this headline">¶</a></h3>
+<p>Once the OS is installed, please try using terminal. Download the <a class="reference download internal" href="_downloads/manual.pdf"><tt class="xref download docutils literal"><span class="pre">manual</span></tt></a> and get started.
+Try using terminal to create folders, create edit and remove files etc.  Try all the commands in the <a class="reference download internal" href="_downloads/cheatsheet.pdf"><tt class="xref download docutils literal"><span class="pre">cheatsheet</span></tt></a>
+and get familiarized.</p>
+</div>
+<div class="section" id="advanced-set-ups">
+<h3>Advanced Set-Ups<a class="headerlink" href="#advanced-set-ups" title="Permalink to this headline">¶</a></h3>
+<p>In order to install any software, you can either install the binaries directly or build the source and install yourself.</p>
+<ul>
+<li><p class="first">If you install through binaries, you have to find the equivalent package name and install it:</p>
+<div class="highlight-python"><pre>sudo apt-get install *package_name*</pre>
+</div>
+</li>
+<li><p class="first">If you wish to install through source, you need to download the source, build it and install it. As a example:</p>
+<div class="highlight-python"><pre>git clone *source link*
+mkdir build &amp;&amp; cd build
+cmake ..
+make
+sudo make install</pre>
+</div>
+</li>
 </ul>
+<p>The method of building differs. Building and installing instructions are usually present in the README or INSTALL file.</p>
+</div>
+<div class="section" id="software-updates">
+<h3>Software Updates<a class="headerlink" href="#software-updates" title="Permalink to this headline">¶</a></h3>
+<p>For the foundation course we need the following softwares to be installed:</p>
+<div class="highlight-python"><pre>sudo apt-get install kile texlive-full git subversion mercurial</pre>
+</div>
+<ul class="simple">
+<li>kile - IDE for Latex documentation.</li>
+<li>texlive-full - Documentation Libraries for Latex.</li>
+<li>git, subversion and mercurial are used for software versioning. GIT will be used more extensively.</li>
+</ul>
+<p>Finally install ROS as per the instructions provided in <a class="reference external" href="http://wiki.ros.org/hydro/Installation/Ubuntu">ROS Hydro</a> . Do not follow the ROS tutorials
+at this stage.</p>
+<p>** It is completely fine if at this stage you are not able to understand what you do. It will be clear during
+later part of the foundation course **</p>
+</div>
+</div>
 </div>
 
 
@@ -69,10 +134,15 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Foundation Course</a><ul>
+<li><a class="reference internal" href="#">Getting Started</a><ul>
+<li><a class="reference internal" href="#operating-system">Operating System</a><ul>
+<li><a class="reference internal" href="#first-steps">First Steps</a></li>
+<li><a class="reference internal" href="#advanced-set-ups">Advanced Set-Ups</a></li>
+<li><a class="reference internal" href="#software-updates">Software Updates</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
 </ul>
 
   <h3>This Page</h3>

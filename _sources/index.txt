@@ -166,6 +166,11 @@ Probablity & Statistics
 Programming Concepts
 ---------------------
 
+.. image:: developer.png
+    :height: 300
+    :align: center
+Image Courtesy : http://www.procalculus.com/fth/view.php?picture=129
+
 A link to C++, JAVA and Python
 
 Programming Styles -OOP

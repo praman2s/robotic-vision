@@ -148,13 +148,19 @@ Frames
 	* Euler Angles.
 * Reference : :download:`Introduction to Robotics <craig.pdf>`
 
+* Demonstration ::
+
+	Task Frame Formulation where the task can be dictated to robot as frames.
+	This will also be one of the student prjoect for the foundation course. 
+
 
 Probablity & Statistics
 ***********************
 
-
-Refreshing Calculus
-********************
+* Till now, we have captured only deterministic systems. Deterministic Systems do not capture noise in the system.
+* Probability allows us by introducing variance in the results.
+* In the foundation course we will focus on :
+	* High school probablity and statitics.
 
 
 Programming Concepts

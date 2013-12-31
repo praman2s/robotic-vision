@@ -107,12 +107,47 @@ later part of the foundation course**
 
 Mathematical Basics
 --------------------
+Robotic Application demands basic knowledge of Mathematics. There are few courses which are based upon the 
+foundation of Mathematics. 
 
 Linear Algebra
 ****************
 
+* A system is said to be linear if its *mathematical* model can be expressed as a linear equation.
+* Linear systems are compartively easy to solve than non-linear systems.
+* When is a system said to be linear ??  
+	* When you can express the system as::
+		
+		Ax = B
+* Linear Algebra teaches us to solve for *x*.
+* Some concepts that will be covered in Foundation Course are as follows :
+	* What is a Matrix ?
+	* Matrix Properties.
+	* Matrix Computations.
+	* Matrix Determinant.
+	* Singularity of a Matrix.
+	* Eigen Values.
+	* Different ways of finding inverse of a matrix.
+
+
+* Demonstration ::
+
+	A demonstration will be shown in image processing where the application of what we learnt in Linear Algebra is put to test.
+	This will also be one of the student project for the Foundation Course.
+
+
 Frames
 **********
+
+* Since we are familiar with Matrix at this point of time, understanding of frames is easier.
+* Concepts convered :
+	* What are frames ?
+	* Where do we attach them ?
+	* Homogenous Matrix and Transform.
+	* Quaterniouns.
+	* Euler Angles.
+* Reference : :download:`Introduction to Robotics <craig.pdf>`
+
 
 Probablity & Statistics
 ***********************

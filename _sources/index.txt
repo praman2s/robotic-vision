@@ -11,7 +11,7 @@
 Foundation Course
 ======================
 Foundation Course is an initiative from `Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg`_.
-The aim of one month foundation course is to lay a foundation for the Master course ahead.
+The primary motive of this one month foundation course is to lay a foundation for the Master course ahead.
 The foundation course aims at the following :
 
 * Getting used to Ubuntu as OS.
@@ -27,8 +27,8 @@ The foundation course aims at the following :
 
 By end of the foundation, participants are expected to do a group project.
 All the queries and discussions regarding the Foundation Course should take place in this `forum`_ .
-The reason for having an open forum is all benefit from individuals question. The forum is only meant for technical question.
-For updates and informal discussions, participants can join our facebook page.
+The reason for having an open forum is all benefit from individuals question. The forum is only meant for technical discussions.
+
 
 .. todo:: Time table
 
@@ -167,11 +167,25 @@ Programming Concepts
 ---------------------
 
 .. image:: developer.png
+    :height: 350
+    :width: 550
+    :align: center
+Image Courtesy : `web_image`_
+
+During the course of Autonomous Systems, it is expected that students learn programming languages in order to
+demonstrate the implemented algorithms. Programming and Development are two different aspects.
+Prototyoing plays an important role, where you do not want to spend time in "developing" software which
+you are not sure of its functionality. In such cases, we strongly recommend to go for prototyoing softwares
+such as Matlab, Octave, Python or Lua. Software Development is an art of keeping the software maintainable and
+keeping it open for future changes and adaptation. Software Design Patterns guide us in achieving such kind of 
+maintainability.
+
+.. image:: language.png
     :height: 300
     :align: center
-Image Courtesy : http://www.procalculus.com/fth/view.php?picture=129
 
-A link to C++, JAVA and Python
+You as a software architect, based upon your experience and guidelines, should find which pattern is useful for the
+problem that you have in hand.
 
 Programming Styles -OOP
 *************************
@@ -190,6 +204,13 @@ State Machines
 
 Communications
 *****************
+In the Foundation Course, we shall implement different ways of communication based on ZeroMQ .
+
+
+.. raw:: html
+	
+	<iframe src="http://www.slideshare.net/slideshow/embed_code/10420545" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/pieterh/overview-of-zeromq" title="Overview of ZeroMQ" target="_blank">Overview of ZeroMQ</a> </strong> from <strong><a href="http://www.slideshare.net/pieterh" target="_blank">pieterh</a></strong> </div>
+
 
 Multi-threading
 ********************
@@ -250,3 +271,4 @@ Modern Control Theory
 .. _Ubuntu 12.04: http://releases.ubuntu.com/precise/
 .. _ROS Hydro: http://wiki.ros.org/hydro/Installation/Ubuntu
 .. _Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg: http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html
+.. _web_image: http://www.procalculus.com/fth/view.php?picture=129

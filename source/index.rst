@@ -167,8 +167,8 @@ Programming Concepts
 ---------------------
 
 .. image:: developer.png
-    :height: 350
-    :width: 550
+    :height: 250
+    :width: 500
     :align: center
 Image Courtesy : `web_image`_
 

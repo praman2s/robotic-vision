@@ -43,7 +43,7 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <img alt="_images/weebly.png" src="_images/weebly.png" style="width: 1050px; height: 250px;" />
+  <img alt="_images/weebly.png" src="_images/weebly.png" style="width: 1300px; height: 250px;" />
 <div class="section" id="foundation-course">
 <h1>Foundation Course<a class="headerlink" href="#foundation-course" title="Permalink to this headline">¶</a></h1>
 <p>Foundation Course is an initiative from <a class="reference external" href="http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html">Masters of Autonomous Systems, Hochschule Bonn-Rhein-Sieg</a>.
@@ -63,7 +63,9 @@ The foundation course aims at the following :</p>
 </ul>
 <p>By end of the foundation, participants are expected to do a group project.
 All the queries and discussions regarding the Foundation Course should take place in this <a class="reference external" href="http://mas-brsu.1002603.n3.nabble.com/">forum</a> .
-The reason for having an open forum is all benefit from individuals question. The forum is only meant for technical discussions.</p>
+The reason for having an open forum is all benefit from individuals question. <em>Please do not write mails to individual
+members regarding Foundation Course. Please communicate via this forum and more importantly, do not feel low to ask
+basic questions.</em></p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
 </ul>
@@ -90,8 +92,8 @@ a virtual box or wubi. Please allocate more than 100GB when you partition your d
 <div class="section" id="first-steps">
 <h4>First Steps<a class="headerlink" href="#first-steps" title="Permalink to this headline">¶</a></h4>
 <p>Once the OS is installed, please try using terminal. Download the <a class="reference download internal" href="_downloads/manual.pdf"><tt class="xref download docutils literal"><span class="pre">manual</span></tt></a> and get started.
-Try using terminal to create folders, create edit and remove files etc.  Try all the commands in the <a class="reference download internal" href="_downloads/cheatsheet.pdf"><tt class="xref download docutils literal"><span class="pre">cheatsheet</span></tt></a>
-and get familiarized.</p>
+Try using terminal to create folders, create, edit and remove files etc.  Try all the commands in the <a class="reference download internal" href="_downloads/cheatsheet.pdf"><tt class="xref download docutils literal"><span class="pre">cheatsheet</span></tt></a>
+and get yourself familiarized.</p>
 </div>
 <div class="section" id="advanced-set-ups">
 <h4>Advanced Set-Ups<a class="headerlink" href="#advanced-set-ups" title="Permalink to this headline">¶</a></h4>
@@ -125,177 +127,9 @@ sudo make install</pre>
 <p>Finally install ROS as per the instructions provided in <a class="reference external" href="http://wiki.ros.org/hydro/Installation/Ubuntu">ROS Hydro</a> . Do not follow the ROS tutorials
 at this stage.</p>
 <p><strong>It is completely fine if at this stage you are not able to understand what you do. It will be clear during
-later part of the foundation course</strong></p>
+later part of the foundation course. If you are not able to follow the above documentation, please raise a question
+in the forum.</strong></p>
 </div>
-</div>
-</div>
-<div class="section" id="mathematical-basics">
-<h2>Mathematical Basics<a class="headerlink" href="#mathematical-basics" title="Permalink to this headline">¶</a></h2>
-<p>Robotic Application demands basic knowledge of Mathematics. There are few courses which are based upon the
-foundation of Mathematics.</p>
-<div class="section" id="linear-algebra">
-<h3>Linear Algebra<a class="headerlink" href="#linear-algebra" title="Permalink to this headline">¶</a></h3>
-<ul>
-<li><p class="first">A system is said to be linear if its <em>mathematical</em> model can be expressed as a linear equation.</p>
-</li>
-<li><p class="first">Linear systems are compartively easy to solve than non-linear systems.</p>
-</li>
-<li><dl class="first docutils">
-<dt>When is a system said to be linear ??</dt>
-<dd><ul class="first last">
-<li><p class="first">When you can express the system as:</p>
-<div class="highlight-python"><div class="highlight"><pre><span class="n">Ax</span> <span class="o">=</span> <span class="n">B</span>
-</pre></div>
-</div>
-</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first">Linear Algebra teaches us to solve for <em>x</em>.</p>
-</li>
-<li><dl class="first docutils">
-<dt>Some concepts that will be covered in Foundation Course are as follows :</dt>
-<dd><ul class="first last simple">
-<li>What is a Matrix ?</li>
-<li>Matrix Properties.</li>
-<li>Matrix Computations.</li>
-<li>Matrix Determinant.</li>
-<li>Singularity of a Matrix.</li>
-<li>Eigen Values.</li>
-<li>Different ways of finding inverse of a matrix.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first">Demonstration</p>
-<div class="highlight-python"><pre>A demonstration will be shown in image processing where the application of what we learnt in Linear Algebra is put to test.
-This will also be one of the student project for the Foundation Course.</pre>
-</div>
-</li>
-</ul>
-</div>
-<div class="section" id="frames">
-<h3>Frames<a class="headerlink" href="#frames" title="Permalink to this headline">¶</a></h3>
-<ul>
-<li><p class="first">Since we are familiar with Matrix at this point of time, understanding of frames is easier.</p>
-</li>
-<li><dl class="first docutils">
-<dt>Concepts convered :</dt>
-<dd><ul class="first last simple">
-<li>What are frames ?</li>
-<li>Where do we attach them ?</li>
-<li>Homogenous Matrix and Transform.</li>
-<li>Quaterniouns.</li>
-<li>Euler Angles.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first">Reference : <a class="reference download internal" href="_downloads/craig.pdf"><tt class="xref download docutils literal"><span class="pre">Introduction</span> <span class="pre">to</span> <span class="pre">Robotics</span></tt></a></p>
-</li>
-<li><p class="first">Demonstration</p>
-<div class="highlight-python"><pre>Task Frame Formulation where the task can be dictated to robot as frames.
-This will also be one of the student prjoect for the foundation course.</pre>
-</div>
-</li>
-</ul>
-</div>
-<div class="section" id="probablity-statistics">
-<h3>Probablity &amp; Statistics<a class="headerlink" href="#probablity-statistics" title="Permalink to this headline">¶</a></h3>
-<ul>
-<li><p class="first">Till now, we have captured only deterministic systems. Deterministic Systems do not capture noise in the system.</p>
-</li>
-<li><p class="first">Probability allows us by introducing variance in the results.</p>
-</li>
-<li><dl class="first docutils">
-<dt>In the foundation course we will focus on :</dt>
-<dd><ul class="first last simple">
-<li>High school probablity and statitics.</li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div>
-</div>
-<div class="section" id="programming-concepts">
-<h2>Programming Concepts<a class="headerlink" href="#programming-concepts" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/developer.png" class="align-center" src="_images/developer.png" style="width: 500px; height: 250px;" />
-<p>Image Courtesy : <a class="reference external" href="http://www.procalculus.com/fth/view.php?picture=129">web_image</a></p>
-<p>During the course of Autonomous Systems, it is expected that students learn programming languages in order to
-demonstrate the implemented algorithms. Programming and Development are two different aspects.
-Prototyoing plays an important role, where you do not want to spend time in &#8220;developing&#8221; software which
-you are not sure of its functionality. In such cases, we strongly recommend to go for prototyoing softwares
-such as Matlab, Octave, Python or Lua. Software Development is an art of keeping the software maintainable and
-keeping it open for future changes and adaptation. Software Design Patterns guide us in achieving such kind of
-maintainability.</p>
-<img alt="_images/language.png" class="align-center" src="_images/language.png" style="height: 300px;" />
-<p>You as a software architect, based upon your experience and guidelines, should find which pattern is useful for the
-problem that you have in hand.</p>
-<div class="section" id="programming-styles-oop">
-<h3>Programming Styles -OOP<a class="headerlink" href="#programming-styles-oop" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="software-architecture-and-design">
-<h3>Software Architecture and Design<a class="headerlink" href="#software-architecture-and-design" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="uml">
-<h3>UML<a class="headerlink" href="#uml" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="software-design-patterns">
-<h3>Software Design Patterns<a class="headerlink" href="#software-design-patterns" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="state-machines">
-<h3>State Machines<a class="headerlink" href="#state-machines" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="communications">
-<h3>Communications<a class="headerlink" href="#communications" title="Permalink to this headline">¶</a></h3>
-<p>In the Foundation Course, we shall implement different ways of communication based on ZeroMQ .</p>
-<iframe src="http://www.slideshare.net/slideshow/embed_code/10420545" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/pieterh/overview-of-zeromq" title="Overview of ZeroMQ" target="_blank">Overview of ZeroMQ</a> </strong> from <strong><a href="http://www.slideshare.net/pieterh" target="_blank">pieterh</a></strong> </div></div>
-<div class="section" id="multi-threading">
-<h3>Multi-threading<a class="headerlink" href="#multi-threading" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="shared-memory">
-<h3>Shared Memory<a class="headerlink" href="#shared-memory" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="database">
-<h3>Database<a class="headerlink" href="#database" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="understanding-ros">
-<h3>Understanding ROS<a class="headerlink" href="#understanding-ros" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="algorithms-and-data-structures">
-<h2>Algorithms and Data-structures<a class="headerlink" href="#algorithms-and-data-structures" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="basic-data-structures">
-<h3>Basic Data Structures<a class="headerlink" href="#basic-data-structures" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="stacks-and-queues">
-<h3>Stacks and Queues<a class="headerlink" href="#stacks-and-queues" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="ros-message">
-<h3>ROS Message<a class="headerlink" href="#ros-message" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="point-cloud">
-<h3>Point Cloud<a class="headerlink" href="#point-cloud" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="protbuf">
-<h3>Protbuf<a class="headerlink" href="#protbuf" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="control-systems">
-<h2>Control Systems<a class="headerlink" href="#control-systems" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="classical-control-theory">
-<h3>Classical Control Theory<a class="headerlink" href="#classical-control-theory" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="closed-loop-transfer-function">
-<h4>Closed-loop transfer function<a class="headerlink" href="#closed-loop-transfer-function" title="Permalink to this headline">¶</a></h4>
-</div>
-<div class="section" id="pid-controller">
-<h4>PID controller<a class="headerlink" href="#pid-controller" title="Permalink to this headline">¶</a></h4>
-</div>
-</div>
-<div class="section" id="modern-control-theory">
-<h3>Modern Control Theory<a class="headerlink" href="#modern-control-theory" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 </div>
@@ -316,42 +150,6 @@ problem that you have in hand.</p>
 <li><a class="reference internal" href="#software-updates">Software Updates</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a class="reference internal" href="#mathematical-basics">Mathematical Basics</a><ul>
-<li><a class="reference internal" href="#linear-algebra">Linear Algebra</a></li>
-<li><a class="reference internal" href="#frames">Frames</a></li>
-<li><a class="reference internal" href="#probablity-statistics">Probablity &amp; Statistics</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#programming-concepts">Programming Concepts</a><ul>
-<li><a class="reference internal" href="#programming-styles-oop">Programming Styles -OOP</a></li>
-<li><a class="reference internal" href="#software-architecture-and-design">Software Architecture and Design</a></li>
-<li><a class="reference internal" href="#uml">UML</a></li>
-<li><a class="reference internal" href="#software-design-patterns">Software Design Patterns</a></li>
-<li><a class="reference internal" href="#state-machines">State Machines</a></li>
-<li><a class="reference internal" href="#communications">Communications</a></li>
-<li><a class="reference internal" href="#multi-threading">Multi-threading</a></li>
-<li><a class="reference internal" href="#shared-memory">Shared Memory</a></li>
-<li><a class="reference internal" href="#database">Database</a></li>
-<li><a class="reference internal" href="#understanding-ros">Understanding ROS</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#algorithms-and-data-structures">Algorithms and Data-structures</a><ul>
-<li><a class="reference internal" href="#basic-data-structures">Basic Data Structures</a></li>
-<li><a class="reference internal" href="#stacks-and-queues">Stacks and Queues</a></li>
-<li><a class="reference internal" href="#ros-message">ROS Message</a></li>
-<li><a class="reference internal" href="#point-cloud">Point Cloud</a></li>
-<li><a class="reference internal" href="#protbuf">Protbuf</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#control-systems">Control Systems</a><ul>
-<li><a class="reference internal" href="#classical-control-theory">Classical Control Theory</a><ul>
-<li><a class="reference internal" href="#closed-loop-transfer-function">Closed-loop transfer function</a></li>
-<li><a class="reference internal" href="#pid-controller">PID controller</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#modern-control-theory">Modern Control Theory</a></li>
 </ul>
 </li>
 </ul>

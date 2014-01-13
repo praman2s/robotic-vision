@@ -41,7 +41,7 @@ Getting Started
 -----------------
 
 Laptop/Desktop : Consider your laptop as an investment rather than an expenditure. The time you save with a
-good laptop is enormous. Consider the below as a minimum configuration::
+good laptop is enormous. Consider the below as a suggested configuration::
 
 	 Processor : i3 or above.
 	 RAM : 4 GB or above.
